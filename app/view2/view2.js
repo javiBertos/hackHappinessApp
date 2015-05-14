@@ -1,6 +1,9 @@
 'use strict';
 
-angular.module('myApp.view2', ['ngRoute'])
+angular.module('myApp.view2', [
+	'ngRoute',
+	'myApp.happies.happy-add-form',
+])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/view2', {
