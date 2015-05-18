@@ -1,18 +1,16 @@
 'use strict';
 
 // Declare app level module which depends on views, and components
-angular.module('myApp', [
+angular.module('hackHappinessApp', [
   'ngRoute',
-  'myApp.view1',
-  'myApp.view2',
-  'myApp.view3',
-  'myApp.version',
+  'hackHappinessApp.home',
+  'hackHappinessApp.explore',
   'ngMaterial'
 ]).
 config(['$routeProvider', function($routeProvider) {
-  $routeProvider.otherwise({redirectTo: '/view1'});
+  $routeProvider.otherwise({redirectTo: '/home'});
 }])
-.controller('MainApp', function($scope,$mdSidenav) {
+.controller('HackHappinessAppMain', function($scope,$mdSidenav) {
     $scope.toggleSidenav = function(menuId) {
         $mdSidenav(menuId).toggle();
     };

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.happies.happy-list', [])
+angular.module('hackHappinessApp.happies.happy-list', [])
 
 // <happy-list></happy-list>
 .directive('happyList', function() {

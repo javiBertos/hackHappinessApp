@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.happies.happy-add-form', [])
+angular.module('hackHappinessApp.happies.happy-add-form', [])
 
 // <happy-add-form></happy-add-form>
 .directive('happyAddForm', function() {

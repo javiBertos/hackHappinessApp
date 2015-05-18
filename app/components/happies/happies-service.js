@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.happies.happies-service', [])
+angular.module('hackHappinessApp.happies.happies-service', [])
 
 .factory('HappiesService', function() {
 	var service = {

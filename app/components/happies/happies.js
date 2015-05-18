@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('myApp.happies', [
-  'myApp.happies.happies-service',
-  'myApp.happies.happy-add-form',
-  'myApp.happies.happy-list',
+angular.module('hackHappinessApp.happies', [
+  'hackHappinessApp.happies.happies-service',
+  'hackHappinessApp.happies.happy-add-form',
+  'hackHappinessApp.happies.happy-list',
 ])
